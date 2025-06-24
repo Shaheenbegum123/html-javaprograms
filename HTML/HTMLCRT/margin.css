@@ -1,0 +1,19 @@
+.A{
+    background-color: blue;
+}
+.B{
+    background-color: rgb(50%, 40%, 25%);
+}
+.C{
+    background-color: #98ff65;
+}
+button{
+    font-size: large;
+    font-style: italic ;
+    background-color: aqua;
+    color: blueviolet;
+    height: 50px;
+    width: 100px;
+    margin: 200px,150px,100px,5px;
+}
+/*{margin:[margin-top],margin-right,margin-bottom,margin-left];}*/

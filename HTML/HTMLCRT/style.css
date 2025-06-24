@@ -1,0 +1,17 @@
+h1{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:brown ;
+    background-color: aquamarine; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-stretch: expanded;
+    background-color: aquamarine ;
+}
+h2{
+    font-size: xx-large;
+    background-image: -moz-element();
+    background-color: blue;
+}

@@ -1,0 +1,29 @@
+.A{
+    background-color: blue;
+}
+.B{
+    background-color: rgb(50%, 40%, 25%);
+}
+.C{
+    background-color: #98ff65;
+}
+button{
+    background-color: blanchedalmond;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 55px;
+    outline-style: dotted;
+    outline-color: black;
+    border: green 10px solid;
+    margin: 20px 20px 20px 200px;
+}
+button:hover{
+    background-color: chartreuse;
+    color: burlywood;
+    border: 2px solid blue;
+    box-shadow: 0px 0px 10px 15px rgb(116, 18, 113) ;
+    cursor: pointer;
+}
