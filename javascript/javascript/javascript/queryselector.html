@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container";>
+        <h1> This is heading in 1st division class</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat incidunt iste consequatur reprehenderit voluptatem. Dolore 
+            incidunt similique et quae beatae nulla adipisci 
+            minima odit suscipit ipsum 
+            vero iusto quo dolor vel necessitatibus cupiditate 
+            sapiente fugiat harum ducimus
+             aperiam eum tenetur, aliquid nihil deleniti. Soluta 
+             nostrum velit, impedit ut ea odio.
+
+        </p>
+    </div>
+    <div class="container">
+        <h2> This is heading tag in 2nd division class</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+             doloremque earum natus voluptate consectetur placeat, deleniti veritatis 
+             reiciendis debitis nam ducimus nihil inventore dolorum deserunt magni doloribus
+              odio quam delectus distinctio assumenda expedita! Voluptatem placeat reiciendis expedita
+               recusandae temporibus nulla animi, odio ex iusto perferendis obcaecati repudiandae voluptate 
+               ducimus similique 
+            pariatur modi nostrum repellendus iure mollitia ipsum eum reprehenderit architecto!</p>
+    </div>
+    
+    
+    <button onclick="f()">Click me</button>
+    <script>
+        
+    function f(){
+        //add a heading tag by removing first container
+        const firstContainer= document.
+        querySelector(".container");
+        firstContainer.parentNode.removeChild(firstContainer);
+        const newHeading= document.createElement("h1");
+        newHeading,innerText= "New Heading";
+        document.body.insertBefore(Heading,document.body.firstChild);
+        //use insertBefore to add a new heading tag beforethe first container
+
+    }
+    </script>
+</body>
+</html>
